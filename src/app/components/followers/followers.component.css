@@ -1,0 +1,63 @@
+.no-padding {
+  padding: 0;
+}
+
+.f_backg {
+  width: 100%;
+  height: 100%;
+  display: inherit;
+}
+
+.f_prof {
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 35px;
+}
+
+.blue_back {
+  width: 100%;
+  height: 100%;
+  background-color: #009df6;
+}
+
+.prof_div {
+  position: relative;
+  top: -30px;
+  left: 10px;
+}
+
+.image_back {
+  height: 100%;
+}
+
+.upper_deck {
+  height: 40%;
+}
+
+.lower_deck {
+  height: 60%;
+  padding-top: 50px;
+  padding-left: 15px
+}
+
+.card-body {
+  height: 100%;
+}
+
+.screen_name {
+  color: grey;
+  font-size: 14pt;
+}
+
+.wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50%;
+}

@@ -1,0 +1,27 @@
+<div class="feedCont">
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border text-primary spinner" role="status" *ngIf="loading">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div style="margin-left: 5%; width: 100%;">
+    <div class="card followersCard" *ngFor="let follower of followers">
+      <div class="card-body no-padding">
+        <div class="upper_deck">
+          <div [ngClass]="(follower.profile_banner_url) ? 'image_back' : 'blue_back'">
+            <img src={{follower.profile_banner_url}} 
+              alt="background" class="f_backg" *ngIf="follower.profile_banner_url">
+          </div>
+          <div class="prof_div">
+            <img src={{follower.profile_image_url_https}} alt="" class="f_prof">
+          </div>
+        </div>
+        <div class="lower_deck">
+          <h4 class="wrap">{{follower.name}}</h4>
+          <span class="screen_name">@{{follower.screen_name}}</span>
+          <p class="description">{{follower.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

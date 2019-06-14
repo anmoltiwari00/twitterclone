@@ -1,0 +1,24 @@
+<div class="feedCont">
+  <div class="card feedCard">
+    <div class="card-body">
+      <div class="header">
+        <h4>Compose new Tweet</h4>
+      </div>
+      <div class="tweet_box">
+        <div class="input-group">
+          <textarea [(ngModel)]="tweetButton" class="form-control" (keyup)="checkDisabled()"></textarea>
+        </div>
+        <div class="bottom_cont">
+          <p align=left>Characters left: <span>{{cLeft}}</span></p>
+          <button type="button" class="btn btn-lg btn-primary" [disabled]="disabled" (click)="tweet()">Tweet</button>
+        </div>
+        <div class="alert alert-success" *ngIf="success">
+          Your thoughts have been posted!
+        </div>
+        <div class="alert alert-danger" *ngIf="danger">
+          Something went wrong!
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

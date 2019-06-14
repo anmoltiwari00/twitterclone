@@ -1,0 +1,21 @@
+<div class="container">
+  <ngb-tabset>
+  <ngb-tab title="Feed">
+    <ng-template ngbTabContent>
+      <app-feed></app-feed>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab title="Followers">
+    <ng-template ngbTabContent>
+      <app-followers></app-followers>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab title="Post">
+    <ng-template ngbTabContent>
+      <app-post></app-post>
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>
+</div>
+
+<router-outlet></router-outlet>

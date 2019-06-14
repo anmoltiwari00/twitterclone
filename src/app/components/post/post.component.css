@@ -1,0 +1,60 @@
+.header {
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid darkgrey;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.tweet_box {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.form-control {
+  border: 2px solid #97d9fb;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.btn-primary:disabled {
+  color: #fff;
+  background-color: #a6e1fc;
+  border-color: #a6e1fc;
+}
+
+.btn-lg {  
+  font-size: 1.0rem;
+  border-radius: 20px;
+  background-color: #11b1fb;
+  border: 1px solid #11b1fb;
+}
+
+.button_cont {
+  padding-right: 35px;
+  padding-top: 10px;
+}
+
+.bottom_cont {
+  display: flex; 
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.alert {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+}
